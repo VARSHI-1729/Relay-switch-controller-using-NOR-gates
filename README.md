@@ -1,13 +1,13 @@
 # Relay-switch-controller-using-NOR-gates
 This project was developed during the ChipSphere VLSI Bootcamp to design a digital logic circuit that controls a relay switch based on specific input conditions. The circuit is implemented using only 2-input NOR gates, demonstrating the universal property of NOR gates in digital design.
 
-#What the project does
+# What the project does
 Logic Design – Derives the minimal Boolean expression for the relay switch operation
 Circuit Implementation – Implements the logic using only 2-input NOR gates
 Verilog Modeling – Writes behavioral and structural Verilog code for the design
 Simulation & Verification – Tests the circuit using a testbench and verifies output waveforms
 
-#Problem Statement
+# Problem Statement
 A relay switch is controlled by the output Y of a logic circuit with four inputs A, B, C, D.
 The relay must be ON (Y = 1) for the following input combinations:
 
@@ -46,7 +46,7 @@ NOR-only implementation may have slightly higher delay compared to mixed-gate de
 
 No physical relay interfacing; purely digital logic simulation
 
-#Skills Demonstrated
+# Skills Demonstrated
 Boolean Algebra & K-Map Minimization – Deriving minimal logic expressions
 Universal Gates – Implementing any logic using only NOR gates
 Digital Circuit Design – Translating Boolean equations to gate-level circuits
