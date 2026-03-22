@@ -39,7 +39,7 @@ Xilinx ISE – Simulation and waveform analysis
 
 Boolean Algebra – Logic minimization techniques
 
-#Known Issues or Limitations
+# Known Issues or Limitations
 Designed specifically for the given truth table; not a general-purpose circuit
 
 NOR-only implementation may have slightly higher delay compared to mixed-gate design
