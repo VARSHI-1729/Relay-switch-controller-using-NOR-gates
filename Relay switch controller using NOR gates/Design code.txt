@@ -1,0 +1,14 @@
+timescale 1ns / 1ps
+
+module relay_switch{
+	input A,B,C,D,
+	output Y
+	);
+	
+	wire w1,w2;
+	
+	nor(w1, c, c);
+	nor(w2, A, w);
+	nor(Y, B, w2);
+
+endmodule
