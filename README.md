@@ -12,12 +12,12 @@ A relay switch is controlled by the output Y of a logic circuit with four inputs
 The relay must be ON (Y = 1) for the following input combinations:
 
 A	B	C	D
-0	0	0	0
-0	0	0	1
-0	1	0	0
-1	0	0	0
-1	0	0	1
-1	0	1	1
+0	0	0	0 |
+0	0	0	1 |
+0	1	0	0 |
+1	0	0	0 |
+1	0	0	1 |
+1	0	1	1 |
 Don't Care Conditions: 0010 and 0110 (these inputs never occur)
 For all other input combinations, the relay must be OFF (Y = 0). 
 Don't Care Conditions: 0010 and 0110 (these inputs never occur)
@@ -38,6 +38,21 @@ Verilog – Behavioral and structural modeling
 Xilinx ISE – Simulation and waveform analysis
 
 Boolean Algebra – Logic minimization techniques
+
+#Known Issues or Limitations
+Designed specifically for the given truth table; not a general-purpose circuit
+
+NOR-only implementation may have slightly higher delay compared to mixed-gate design
+
+No physical relay interfacing; purely digital logic simulation
+
+#Skills Demonstrated
+Boolean Algebra & K-Map Minimization – Deriving minimal logic expressions
+Universal Gates – Implementing any logic using only NOR gates
+Digital Circuit Design – Translating Boolean equations to gate-level circuits
+Testbench Development – Verifying functionality with exhaustive input testing
+
+
 
 
 
